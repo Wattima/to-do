@@ -1,17 +1,13 @@
-import React from 'react';
-import NavBar from '../components/NavBar';
-import Footer from '../components/Footer';
+import React from "react";
+import NavBar from "../components/NavBar";
+import Footer from "../components/Footer";
 
-function ToDoAnalytics(props) {
-    return (
-        <div>
-            <NavBar/>
-            <div>
-                to do Analyics
-            </div>
-            <Footer/>
-        </div>
-    );
+function ToDoAnalytics() {
+  return (<div>
+    <NavBar/>
+  <div>to do Analytics</div>
+   <Footer/>
+  </div>);
 }
 
 export default ToDoAnalytics;
